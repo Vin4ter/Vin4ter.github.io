@@ -1,0 +1,21 @@
+baseURL = "https://ubuntu-web.gitlab.io/"
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+title = "Open Web Store"
+copyright = "An open source project by Ubuntu Web"
+theme = "app-store"
+
+[params]
+subtitle = "Web apps are the future"
+title = "Open Web Store"
+description = "Web apps are the future. An open source web-app store brought to you by Ubuntu Web."
+copyright = "An open source web-app store by Ubuntu Web."
+
+[Menus]
+main = [
+	{Name = "Education", URL = "/page/education"},
+	{Name = "Music", URL = "/page/music"},
+	{Name = "Social Networking", URL = "/page/social"},
+	{Name = "Streaming", URL = "/page/streaming"},
+	{Name = "Web Services", URL = "/page/web-services"}
+]
