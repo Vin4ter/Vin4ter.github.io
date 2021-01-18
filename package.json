@@ -13,7 +13,7 @@
     "debounce": "^1.2.0",
     "font-awesome": "^4.7.0",
     "mini-toastr": "^0.8.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "v-img": "^0.2.0",
     "vanilla-framework": "^1.8.0",
     "vue": "^2.5.17",
