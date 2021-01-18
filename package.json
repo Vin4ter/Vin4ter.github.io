@@ -19,7 +19,7 @@
     "vue": "^2.5.17",
     "vue-head": "^2.0.12",
     "vue-lazyload": "^1.2.6",
-    "vue-moment": "^4.0.0",
+    "vue-moment": "^4.1.0",
     "vue-notifications": "^0.9.0",
     "vue-router": "^3.0.1",
     "vuedraggable": "^2.16.0"
