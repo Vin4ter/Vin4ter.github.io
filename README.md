@@ -1,10 +1,6 @@
 # OpenStore Web
 
-The web client for the [OpenStore](https://open-store.io/).
-
-## Reporting Bugs
-
-Please report any bugs/features/requests in our [bug tracker](https://github.com/UbuntuOpenStore/openstore-meta/issues).
+The client for the cutiepi shell
 
 ## Development
 
@@ -13,7 +9,7 @@ To get setup with development, checkout the
 
 ## License
 
-Copyright (C) 2018 [Brian Douglass](http://bhdouglass.com/)
+Copyright (C) 2021 Cutiepi community 
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3, as published
 by the Free Software Foundation.
