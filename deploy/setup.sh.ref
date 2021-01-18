@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Setup git deploy: https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps
+# Setup post-recieve hooks
+
+# Setup dependencies
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+add-apt-repository ppa:certbot/certbot
+add-apt-repository ppa:bhdouglass/clickable
+
+apt-get update
+apt-get upgrade
+
+apt-get install git nodejs nginx python-certbot-nginx build-essential liblzma-dev click-reviewers-tools
+
+# Setup nginx config
+# /etc/nginx/sites-enabled/default
+
+# Setup systemd config
+# /etc/systemd/system/openstore-api.service
+systemctl enable openstore-api
+systemctl start openstore-api
