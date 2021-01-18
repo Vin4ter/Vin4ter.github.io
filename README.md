@@ -1,4 +1,4 @@
-# OpenStore Web
+# Pure-software.github.io
 
 The client for the cutiepi shell
 
